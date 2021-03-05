@@ -12,5 +12,60 @@
 
 html body {
   font-family: 'Roboto', sans-serif;
+  color: #000000;
+}
+
+html body .header {
+  height: 90px;
+  border-bottom: 2px solid #F4F4F4;
+}
+
+html body .header .header__wrapper {
+  padding-top: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body .header .header__wrapper .header__logo {
+  cursor: pointer;
+}
+
+html body .header .header__wrapper .header__nav .header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+html body .header .header__wrapper .header__nav .header__list .header__item {
+  margin-left: 78px;
+}
+
+html body .header .header__wrapper .header__nav .header__list .header__item .header__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+  text-decoration: none;
+}
+
+html body .header .header__wrapper .header__offer {
+  border: 1.05374px solid #0749A8;
+  padding: 13px 28px;
+  background: transparent;
+}
+
+html body .header .header__wrapper .header__offer .header__offer-link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
 }
 /*# sourceMappingURL=style.css.map */
