@@ -63,6 +63,7 @@ html{
         }
         .preview{
             height:733px;
+            margin-bottom:182px;
             .preview__wrapper{
                 display:flex;
                 .preview__info{
@@ -173,6 +174,55 @@ html{
                         height:3px;
                         width:70%;
                         background-color:white;
+                    }
+                }
+            }
+        }
+        .services{
+            .services__wrapper{
+                .services__title{
+                    position:relative;
+                    margin-bottom:118px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 32px;
+                    line-height: 57px;
+                    &::after{
+                        content:'';
+                        display:block;
+                        width:127px;
+                        height:4px;
+                        position:absolute;
+                        bottom:0;
+                        left:0;
+                        background-color:#0749A8;
+                    }
+                }
+                .services__cards{
+                    display:grid;
+                    grid-template-columns:repeat(1fr,12);
+                    grid-template-rows:299px 299px;
+                    grid-gap:22px;
+                    .services__card{
+                        background: #F5F5F5;
+                    }
+                    .services__card-big{
+                        grid-column:1 / span 6;
+                    }
+                    .services__card-small{
+                        grid-column:7 / span 5;
+                    }
+                    .services__card-big-1{
+                        grid-row:1;
+                    }
+                    .services__card-small-1{
+                        grid-row:1;
+                    }
+                    .services__card-big-2{
+                        grid-row:2;
+                    }
+                    .services__card-small-3{
+                        grid-row:2;
                     }
                 }
             }

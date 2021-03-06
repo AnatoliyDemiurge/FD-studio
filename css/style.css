@@ -72,6 +72,7 @@ html body .header .header__wrapper .header__offer .header__offer-link {
 
 html body .preview {
   height: 733px;
+  margin-bottom: 182px;
 }
 
 html body .preview .preview__wrapper {
@@ -211,5 +212,71 @@ html body .preview .preview__wrapper .preview__develop .preview__line {
   height: 3px;
   width: 70%;
   background-color: white;
+}
+
+html body .services .services__wrapper .services__title {
+  position: relative;
+  margin-bottom: 118px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 57px;
+}
+
+html body .services .services__wrapper .services__title::after {
+  content: '';
+  display: block;
+  width: 127px;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #0749A8;
+}
+
+html body .services .services__wrapper .services__cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (12)[1fr];
+      grid-template-columns: repeat(1fr, 12);
+  -ms-grid-rows: 299px 299px;
+      grid-template-rows: 299px 299px;
+  grid-gap: 22px;
+}
+
+html body .services .services__wrapper .services__cards .services__card {
+  background: #F5F5F5;
+}
+
+html body .services .services__wrapper .services__cards .services__card-big {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-column: 1 / span 6;
+}
+
+html body .services .services__wrapper .services__cards .services__card-small {
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 5;
+  grid-column: 7 / span 5;
+}
+
+html body .services .services__wrapper .services__cards .services__card-big-1 {
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+html body .services .services__wrapper .services__cards .services__card-small-1 {
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+html body .services .services__wrapper .services__cards .services__card-big-2 {
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+html body .services .services__wrapper .services__cards .services__card-small-3 {
+  -ms-grid-row: 2;
+  grid-row: 2;
 }
 /*# sourceMappingURL=style.css.map */
