@@ -69,4 +69,96 @@ html body .header .header__wrapper .header__offer .header__offer-link {
   line-height: 16px;
   color: #333333;
 }
+
+html body .preview {
+  height: 733px;
+}
+
+html body .preview .preview__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html body .preview .preview__wrapper .preview__info {
+  padding-top: 190px;
+  max-width: 620px;
+}
+
+html body .preview .preview__wrapper .preview__info .preview__logo {
+  margin-bottom: 20px;
+}
+
+html body .preview .preview__wrapper .preview__info .preview__logo .preview__fd {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 135.69%;
+}
+
+html body .preview .preview__wrapper .preview__info .preview__logo .preview__studio {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 135.69%;
+  color: #0749A8;
+}
+
+html body .preview .preview__wrapper .preview__info .preview__title {
+  margin-bottom: 33px;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+}
+
+html body .preview .preview__wrapper .preview__info .preview__text {
+  margin-bottom: 100px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+html body .preview .preview__wrapper .preview__info .preview__offers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html body .preview .preview__wrapper .preview__develop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #1D1D1D;
+  width: 50%;
+  height: 85vh;
+  position: absolute;
+  right: 0;
+}
+
+html body .preview .preview__wrapper .preview__develop .preview__title-dev {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 39px;
+  font-family: Open Sans;
+  color: #FFFFFF;
+  margin-left: 30px;
+}
+
+html body .preview .preview__wrapper .preview__develop .preview__wave {
+  margin-left: 32px;
+}
+
+html body .preview .preview__wrapper .preview__develop .preview__line {
+  position: absolute;
+  bottom: 10%;
+  left: 18%;
+  height: 3px;
+  width: 70%;
+  background-color: white;
+}
 /*# sourceMappingURL=style.css.map */
