@@ -377,6 +377,7 @@ html{
                     .portfolio__pic{
                         margin-right:5px;
                         margin-top:20px;
+                        max-width:100%;
                     }
                 }
                 .portfolio__view-all{
@@ -391,6 +392,7 @@ html{
             }
         }
         .comments{
+            margin-bottom:99px;
             .comments__wrapper{
                 .comments__title{
                     font-weight: normal;
@@ -412,7 +414,6 @@ html{
                     }
                 }
                 .comments__items{
-                    
                     display:flex;
                     .comments__item{
                         .comments__personal{
@@ -442,7 +443,7 @@ html{
                         }
                         .comments__text-area{
                             background: #F0F0F0;
-                            padding:26px 11px 44px 30px;
+                            padding:26px 11px 22px 30px;
                             .comments__text{
                                 font-weight: 300;
                                 font-size: 16px;
@@ -454,6 +455,12 @@ html{
                        margin-right:17px;
                     }
                 }
+            }
+        }
+        .offer{
+            background: #F0F0F0;
+            .offer__wrapper{
+
             }
         }
     }
