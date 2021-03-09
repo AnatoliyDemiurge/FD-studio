@@ -323,5 +323,138 @@ html{
                 }
             }
         }
+        .portfolio{
+            margin-bottom:68px;
+            .portfolio__wrapper{
+                .portfolio__title{
+                    margin-bottom:30px;
+                    position: relative;
+                    padding-bottom:14px;
+                    .portfolio__fd{
+                        font-size: 32px;
+                        line-height: 37px;
+                        color: #000000;
+                    }
+                    .portfolio__studio{
+                        font-size: 32px;
+                        line-height: 37px;
+                        color:#0749A8;
+                    }
+                    &::after{
+                        content:'';
+                        display:block;
+                        width:127px;
+                        height:4px;
+                        position:absolute;
+                        bottom:0;
+                        left:0;
+                        background-color:#0749A8;
+                    }
+                }
+                .portfolio__nav{
+                    margin-bottom:26px;
+                    .portfolio__list{
+                        list-style:none;
+                        display:flex;
+                        .portfolio__item{
+                            margin-right:38px;
+                            .portfolio__link{
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: #8B8B8B;
+                                text-decoration:none;
+                                transition:linear all .3s;
+                                &:hover{
+                                    text-decoration: underline;
+                                    color:#333333;
+                                }
+                            }
+                        }
+                    }
+                }
+                .portfolio__pics{
+                    margin-bottom:30px;
+                    .portfolio__pic{
+                        margin-right:5px;
+                        margin-top:20px;
+                    }
+                }
+                .portfolio__view-all{
+                    text-align:center;
+                    .portfolio__link{
+                        font-size: 16.8599px;
+                        line-height: 20px;
+                        color: #8B8B8B;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .comments{
+            .comments__wrapper{
+                .comments__title{
+                    font-weight: normal;
+                    font-size: 32px;
+                    line-height: 37px;
+                    color: #000000;
+                    position:relative;
+                    padding-bottom:13px;
+                    margin-bottom:100px;
+                    &::after{
+                        content:'';
+                        display:block;
+                        width:127px;
+                        height:4px;
+                        position:absolute;
+                        bottom:0;
+                        left:0;
+                        background-color:#0749A8;
+                    }
+                }
+                .comments__items{
+                    
+                    display:flex;
+                    .comments__item{
+                        .comments__personal{
+                            display:flex;
+                            align-items: center;
+                            margin-bottom:40px;
+                            .comments__avatar{
+                                margin-right:15px;
+                                width:65px;
+                                height:65px;
+                                border-radius:50%;
+                                background: #E3DBDB;
+                            }
+                            .comments__data{
+                                .comments__name{
+                                    font-size: 18.9673px;
+                                    line-height: 22px;
+                                    color: #000000;
+                                }
+                                .comments__status{
+                                    font-weight: 300;
+                                    font-size: 14.7524px;
+                                    line-height: 17px;
+                                    color: #333333;
+                                }
+                            }
+                        }
+                        .comments__text-area{
+                            background: #F0F0F0;
+                            padding:26px 11px 44px 30px;
+                            .comments__text{
+                                font-weight: 300;
+                                font-size: 16px;
+                                line-height: 19px;
+                            }
+                        }
+                    }
+                    .comments__item-1{
+                       margin-right:17px;
+                    }
+                }
+            }
+        }
     }
 }
