@@ -248,16 +248,79 @@ html body .services .services__wrapper .services__cards .services__card {
   background: #F5F5F5;
 }
 
+html body .services .services__wrapper .services__cards .services__card .services__info {
+  max-width: 340px;
+}
+
+html body .services .services__wrapper .services__cards .services__card .services__info .services__name {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  margin-bottom: 45px;
+}
+
+html body .services .services__wrapper .services__cards .services__card .services__info .services__text {
+  font-weight: 300;
+  font-size: 14.7524px;
+  line-height: 17px;
+  color: #323232;
+  margin-bottom: 70px;
+}
+
+html body .services .services__wrapper .services__cards .services__card .services__info .services__offer {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #0749A8;
+  text-decoration: none;
+}
+
+html body .services .services__wrapper .services__cards .services__card-1 {
+  padding: 40px 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: url("../img/arc.png") right bottom no-repeat;
+  background-color: #F5F5F5;
+}
+
+html body .services .services__wrapper .services__cards .services__card-1 .services__pic {
+  height: 299px;
+  width: 300px;
+}
+
+html body .services .services__wrapper .services__cards .services__card-1 .services__pic .services__circles {
+  max-width: 210px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html body .services .services__wrapper .services__cards .services__card-1 .services__pic .services__circles .services__circle {
+  margin-left: 10px;
+  margin-top: 16px;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  background: #0749A8;
+  border-radius: 50%;
+}
+
 html body .services .services__wrapper .services__cards .services__card-big {
   -ms-grid-column: 1;
-  -ms-grid-column-span: 6;
-  grid-column: 1 / span 6;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / span 2;
 }
 
 html body .services .services__wrapper .services__cards .services__card-small {
-  -ms-grid-column: 7;
-  -ms-grid-column-span: 5;
-  grid-column: 7 / span 5;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 6;
+  grid-column: 3 / span 6;
 }
 
 html body .services .services__wrapper .services__cards .services__card-big-1 {
