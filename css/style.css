@@ -10,6 +10,34 @@
   margin: 0 auto;
 }
 
+input[type="text"]::-webkit-input-placeholder {
+  font-weight: normal;
+  font-size: 18.9673px;
+  line-height: 22px;
+  color: #606060;
+}
+
+input[type="text"]:-ms-input-placeholder {
+  font-weight: normal;
+  font-size: 18.9673px;
+  line-height: 22px;
+  color: #606060;
+}
+
+input[type="text"]::-ms-input-placeholder {
+  font-weight: normal;
+  font-size: 18.9673px;
+  line-height: 22px;
+  color: #606060;
+}
+
+input[type="text"]::placeholder {
+  font-weight: normal;
+  font-size: 18.9673px;
+  line-height: 22px;
+  color: #606060;
+}
+
 html body {
   font-family: 'Roboto', sans-serif;
   color: #000000;
@@ -564,5 +592,71 @@ html body .comments .comments__wrapper .comments__items .comments__item .comment
 
 html body .comments .comments__wrapper .comments__items .comments__item-1 {
   margin-right: 17px;
+}
+
+html body .offer {
+  background: #F0F0F0;
+  padding-top: 73px;
+  padding-bottom: 114px;
+}
+
+html body .offer .offer__wrapper .offer__outset {
+  font-size: 16px;
+  line-height: 19px;
+  color: #5C5C5C;
+}
+
+html body .offer .offer__wrapper .offer__bonds {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html body .offer .offer__wrapper .offer__bonds .offer__form input {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border: none;
+}
+
+html body .offer .offer__wrapper .offer__bonds .offer__form .offer__title {
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  margin-bottom: 48px;
+}
+
+html body .offer .offer__wrapper .offer__bonds .offer__form .offer__field {
+  margin-right: 35px;
+  height: 40px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #B3B3B3;
+  width: 320px;
+}
+
+html body .offer .offer__wrapper .offer__bonds .offer__form .offer__field-idea {
+  margin-top: 61px;
+  width: 63%;
+  margin-bottom: 64px;
+}
+
+html body .offer .offer__wrapper .offer__bonds .offer__form .offer__send {
+  background: #0749A8;
+  padding: 16px 75px;
+  display: block;
+  border: 0px;
+}
+
+html body .offer .offer__wrapper .offer__bonds .offer__form .offer__send .offer__link {
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+html body .offer .offer__wrapper .offer__bonds .offer__pic {
+  max-width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

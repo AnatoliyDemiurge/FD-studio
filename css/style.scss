@@ -9,6 +9,15 @@
     margin:0 auto;
 }
 
+input[type="text"]{
+    &::placeholder{
+        font-weight: normal;
+        font-size: 18.9673px;
+        line-height: 22px;
+        color: #606060;
+    }
+}
+
 // font-family: 'Montserrat', sans-serif;
 // font-family: 'Open Sans', sans-serif;
 // font-family: 'Roboto', sans-serif;
@@ -459,8 +468,61 @@ html{
         }
         .offer{
             background: #F0F0F0;
+            padding-top:73px;
+            padding-bottom:114px;
             .offer__wrapper{
-
+                .offer__outset{
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #5C5C5C;
+                }
+                .offer__bonds{
+                    margin-top:20px;
+                    display:flex;
+                    .offer__form{
+                        input
+                        {
+                            padding: 0;
+                            margin: 0;
+                            border: 0;
+                            border: none;
+                        }
+                        .offer__title{
+                            font-size: 32px;
+                            line-height: 37px;
+                            color: #000000;
+                            margin-bottom:48px;
+                        }
+                        .offer__field{
+                            margin-right:35px;
+                            height:40px;
+                            background:transparent;
+                            border:0;
+                            border-bottom: 1px solid #B3B3B3;
+                            width: 320px;
+                        }
+                        .offer__field-idea{
+                            margin-top:61px;
+                            width:63%;
+                            margin-bottom:64px;
+                        }
+                        .offer__send{
+                            background: #0749A8;
+                            padding:16px 75px;
+                            display:block;
+                            border:0px;
+                            .offer__link{
+                                font-size: 20px;
+                                line-height: 23px;
+                                color: #FFFFFF;
+                                text-decoration:none;
+                            }
+                        }
+                    }
+                    .offer__pic{
+                        max-width:100%;
+                    }
+                }
             }
         }
     }
