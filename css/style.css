@@ -678,4 +678,50 @@ html body .email .email__wrapper .email__text .email__link {
   line-height: 42px;
   color: #FFFFFF;
 }
+
+html body .footer {
+  background: #292929;
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+html body .footer .footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html body .footer .footer__wrapper .footer__logo {
+  margin-top: 50px;
+  height: 100%;
+}
+
+html body .footer .footer__wrapper .footer__list {
+  list-style: none;
+}
+
+html body .footer .footer__wrapper .footer__list .footer__item {
+  margin-bottom: 20px;
+}
+
+html body .footer .footer__wrapper .footer__list .footer__item .footer__link {
+  font-size: 18px;
+  line-height: 21px;
+  color: #DDDDDD;
+  text-decoration: none;
+}
+
+html body .footer .footer__wrapper .footer__list .footer__item-1 {
+  margin-bottom: 26px;
+}
+
+html body .footer .footer__wrapper .footer__list .footer__item-1 .footer__link {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
 /*# sourceMappingURL=style.css.map */

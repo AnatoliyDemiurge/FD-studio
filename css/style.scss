@@ -543,5 +543,44 @@ html{
                 }
             }
         }
+        .footer{
+            background: #292929;
+            padding-top:85px;
+            padding-bottom:85px;
+            .footer__wrapper{
+                display:flex;
+                justify-content: space-between;
+                .footer__logo{
+                   margin-top:50px;
+                   height:100%;
+                }
+                .footer__list{
+                    list-style:none;
+                    .footer__item{
+                        margin-bottom:20px;
+                        .footer__link{
+                            font-size: 18px;
+                            line-height: 21px;
+                            color: #DDDDDD;
+                            text-decoration:none;
+                        }
+                    }
+                    .footer__item-1{
+                        margin-bottom:26px;
+                        .footer__link{
+                            font-weight: bold;
+                            font-size: 20px;
+                            line-height: 23px;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+                .footer__offer{
+                    .footer__button{
+                        
+                    }
+                }
+            }
+        }
     }
 }
