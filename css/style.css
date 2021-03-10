@@ -659,4 +659,23 @@ html body .offer .offer__wrapper .offer__bonds .offer__form .offer__send .offer_
 html body .offer .offer__wrapper .offer__bonds .offer__pic {
   max-width: 100%;
 }
+
+html body .email {
+  background: #292929;
+  padding-top: 72px;
+  padding-bottom: 73px;
+  border-bottom: 1px solid #565656;
+}
+
+html body .email .email__wrapper .email__text {
+  text-align: center;
+}
+
+html body .email .email__wrapper .email__text .email__link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
 /*# sourceMappingURL=style.css.map */
