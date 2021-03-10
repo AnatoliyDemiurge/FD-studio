@@ -511,6 +511,7 @@ html{
                             padding:16px 75px;
                             display:block;
                             border:0px;
+                            cursor: pointer;
                             .offer__link{
                                 font-size: 20px;
                                 line-height: 23px;
@@ -577,7 +578,29 @@ html{
                 }
                 .footer__offer{
                     .footer__button{
-                        
+                        margin-bottom:43px;
+                        background: #0749A8;
+                        padding:17px 45px;
+                        border:0px;
+                        cursor: pointer;
+                        .footer__link-send{
+                            font-size: 20px;
+                            line-height: 23px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    .footer__icons{
+                        margin-bottom:106px;
+                        .footer__icon{
+                            margin-left:38px;
+                        }
+                    }
+                    .footer__created-by{
+                        font-weight: bold;
+                        font-size: 12px;
+                        line-height: 14px;
+                        color: #FFFFFF;
+                        text-align:right;
                     }
                 }
             }

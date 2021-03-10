@@ -647,6 +647,7 @@ html body .offer .offer__wrapper .offer__bonds .offer__form .offer__send {
   padding: 16px 75px;
   display: block;
   border: 0px;
+  cursor: pointer;
 }
 
 html body .offer .offer__wrapper .offer__bonds .offer__form .offer__send .offer__link {
@@ -723,5 +724,35 @@ html body .footer .footer__wrapper .footer__list .footer__item-1 .footer__link {
   font-size: 20px;
   line-height: 23px;
   color: #FFFFFF;
+}
+
+html body .footer .footer__wrapper .footer__offer .footer__button {
+  margin-bottom: 43px;
+  background: #0749A8;
+  padding: 17px 45px;
+  border: 0px;
+  cursor: pointer;
+}
+
+html body .footer .footer__wrapper .footer__offer .footer__button .footer__link-send {
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+html body .footer .footer__wrapper .footer__offer .footer__icons {
+  margin-bottom: 106px;
+}
+
+html body .footer .footer__wrapper .footer__offer .footer__icons .footer__icon {
+  margin-left: 38px;
+}
+
+html body .footer .footer__wrapper .footer__offer .footer__created-by {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  text-align: right;
 }
 /*# sourceMappingURL=style.css.map */
